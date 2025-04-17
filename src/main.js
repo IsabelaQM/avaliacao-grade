@@ -29,7 +29,7 @@ function embaralhar(array) {
   return copy;
 }
 
-function gerarPopulacao(disciplinas, linhas = 50, colunas = 100) {
+function popInicial(disciplinas, linhas = 50, colunas = 100) {
   const populacao = [];
 
   for (let i = 0; i < linhas; i++) {
@@ -151,6 +151,5 @@ function renderizarGrade(populacao) {
 
 // Execução
 const disciplinas = gerarDisciplinas();
-const populacao = gerarPopulacao(disciplinas);
+const populacao = popInicial(disciplinas);
 renderizarGrade(populacao);
-
