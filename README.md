@@ -1,6 +1,6 @@
 # Gerador de Grades Horárias
 
-Este projeto gera múltiplas possibilidades de grades horárias para o curso de Sistemas para Internet, atendendo a critérios específicos de períodos, dias da semana, horários e disciplinas. O resultado é exibido em uma tabela formatada no navegador.
+Este projeto avalia a matriz que foi gerada com as múltiplas possibilidades de grades horárias para o curso de Sistemas para Internet, atendendo a critérios específicos de períodos, dias da semana, horários e disciplinas. O resultado da grade horária é exibido em uma tabela formatada no navegador. Nesta etapa o objetivo é avaliar para cada indivíduo (linha da matriz) quantos conflitos existem de acordo com o código do professor
 
 
 ## Requisitos
